@@ -1,0 +1,8 @@
+[package]
+name = "netns-ng"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.75"
+nix = { version = "0.27.1", features = ["sched", "mount"] }
